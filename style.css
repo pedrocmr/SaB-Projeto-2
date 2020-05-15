@@ -64,11 +64,11 @@ h1 {
 }
 
 #quem-somos-conteudo > p{
-  width: 40%;
+  max-width: 40%;
 }
 
 #slider-quem-somos {
-  width: 50%;
+  width: 700px;
   height: 350px;
   background-color: #C23F3F;
   border-radius: 10px;
@@ -105,7 +105,7 @@ h1 {
 
 .depoimento > p {
   margin-bottom: 0;
-  font-size: 1.2vw;
+  font-size: 1.2rem;
 }
 
 .depoimento > h6 {
@@ -137,11 +137,28 @@ h1 {
 
 @media (max-width: 599px) {
   #redes-sociais {display: none;}
+  #logo-clientes {flex-flow: column wrap; align-items: center;}
 }
 
-@media (min-width: 600px) and (max-width: 1199px) {
-  #quem-somos > div {
-    flex-direction: column;
-    justify-content: center;
+@media (max-width: 1399px) {
+
+  #quem-somos-conteudo {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+  }
+
+  #quem-somos-conteudo > p {
+    max-width: 100%;
+    text-align: justify;
+    margin-bottom: 80px;
+  }
+
+  #slider-quem-somos{
+    width: 100%;
+  }
+
+  .depoimento {
+    max-height: 90%;
   }
 }
