@@ -27,7 +27,7 @@ h1 {
   font-weight: bold;
 }
 
-#servicos, #quem-somos, #clientes {padding: 0 10% 0 10%;}
+#servicos, #quem-somos, #clientes {margin: 0 10% 0 10%;}
 
 #redes-sociais {
   position: fixed;
