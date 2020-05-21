@@ -6,7 +6,6 @@
 body {
   height: 5645px;
   font-style: 'Roboto', sans-serif;
-  padding: 0 10% 0 10%;
 }
 
 
@@ -27,6 +26,8 @@ h1 {
   text-align: center;
   font-weight: bold;
 }
+
+#servicos, #quem-somos, #clientes {padding: 0 10% 0 10%;}
 
 #redes-sociais {
   position: fixed;
