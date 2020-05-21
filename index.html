@@ -16,6 +16,10 @@
     
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
+
+    <!-- AOS Library-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   </head>
   <body>
       
@@ -62,6 +66,7 @@
                 </div>
 
       <!--TODO3 - SERVIÇOS-->
+      
 
       <!--TODO4 - REDES SOCIAIS-->
       <div id="redes-sociais">
@@ -72,7 +77,7 @@
       </div>
 
       <!--TODO5 - QUEM SOMOS-->
-      <div id="quem-somos">
+      <div id="quem-somos" data-aos="fade-in">
         <h1>Por que Invictus?</h1>
 
         <div id="quem-somos-conteudo">
@@ -137,7 +142,7 @@
       </div>
 
       <!--TODO6 - CLIENTES-->
-      <div id="clientes">
+      <div id="clientes" data-aos="fade-in">
         <h1>Clientes</h1>
         <div id="logo-clientes">
           <img class="logo" src="./assets/clientes/Logo-Kyoto v3p.png" alt="kyoto">
@@ -150,7 +155,12 @@
       <!--TODO8 - PARCEIROS-->
       <!--TODO9 - FOOTER-->
 
-      <script>
-      </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 300,
+          duration: 1500
+      });
+    </script>
   </body>
 </html>
