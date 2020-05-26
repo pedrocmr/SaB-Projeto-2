@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- AOS Library-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
 
   </head>
 
@@ -73,7 +73,8 @@
     
 
       <!--TODO3 - SERVIÇOS-->
-      <div id="servicos" data-aos="fade-in">
+      <!-- data-aos="fade-in" -->
+      <div id="servicos">
         <h1>Serviços</h1>
 
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-around">
@@ -169,7 +170,7 @@
       </div>
 
       <!--TODO5 - QUEM SOMOS-->
-      <div id="quem-somos" data-aos="fade-in">
+      <div id="quem-somos">
         <h1>Por que Invictus?</h1>
 
         <div id="quem-somos-conteudo">
@@ -235,7 +236,7 @@
 
       <!--TODO6 - CLIENTES-->
 
-      <div id="clientes" data-aos="fade-in">
+      <div id="clientes">
         <h1>Clientes</h1>
         <div id="logo-clientes">
           <img class="logo" src="./assets/clientes/Logo-Kyoto v3p.png" alt="kyoto">
@@ -247,7 +248,7 @@
 
       <!--TODO7 - FALE CONOSCO-->
 
-      <div id="contato" data-aos="fade-in">
+      <div id="contato">
         <div id="vermelho"></div>
         <div class="img-fluid" id="fale-conosco" ></div>
         
@@ -272,7 +273,7 @@
 
       <!--TODO8 - PARCEIROS-->
 
-      <div class="container" id="parceiros" data-aos="fade-in"> 
+      <div class="container" id="parceiros"> 
         <h1 id="nome-par">Parceiros</h1>
         
         <!-- Carrosel -->
@@ -293,7 +294,7 @@
 
 
       <!--TODO9 - RODAPÉ-->
-      <div id="contatos" data-aos="fade-in">
+      <div id="contatos">
     <footer class="footer navbar-fixed">
 
       
@@ -351,12 +352,12 @@
 
 
     
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
     <script>
-      AOS.init({
-          offset: 300,
-          duration: 1500
-      });
+      //AOS.init({
+          //offset: 300,
+          //duration: 1500
+      //});
 
       function maquinaDeEscrever (elemento) {
         const texto = elemento.innerHTML.split('')
