@@ -232,8 +232,8 @@ h1 {
   color: #000000;
   margin: 0;
   justify-content: center;
-  text: bold;
-  height: 5%;
+  font-weight: bold;
+  height: 30px;
 }
 
 #atraves-do-papel{
@@ -467,6 +467,10 @@ footer h6{
 
   .depoimento {
     max-height: 90%;
+  }
+  footer h6{
+    padding-top: 5%;
+
   }
 
   #redes-sociais {
