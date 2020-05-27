@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
 
     <!-- AOS Library-->
-    <!--<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
   </head>
 
@@ -73,7 +73,6 @@
     
 
       <!--TODO3 - SERVIÇOS-->
-      <!-- data-aos="fade-in" -->
       <div id="servicos">
         <h1>Serviços</h1>
 
@@ -170,7 +169,7 @@
       </div>
 
       <!--TODO5 - QUEM SOMOS-->
-      <div id="quem-somos">
+      <div id="quem-somos" data-aos="fade-left">
         <h1>Por que Invictus?</h1>
 
         <div id="quem-somos-conteudo">
@@ -206,7 +205,7 @@
                     </p>
                     <h6>- Marina Góes</h6>
                   </div>
-                  <img src="./assets/xp/marina.jpeg" alt="engenheira civil">
+                  <img src="./assets/xp/marina.png" alt="engenheira civil">
                 </div>
               </div>
               <div class="carousel-item">
@@ -218,7 +217,7 @@
                     </p>
                     <h6>- Rikson Santos</h6>
                   </div>
-                  <img src="./assets/xp/rikson.jpg" alt="engnheiro mecânico">
+                  <img src="./assets/xp/rikson.png" alt="engnheiro mecânico">
                 </div>
               </div>
             </div>
@@ -236,7 +235,7 @@
 
       <!--TODO6 - CLIENTES-->
 
-      <div id="clientes">
+      <div id="clientes" data-aos="fade-right">
         <h1>Clientes</h1>
         <div id="logo-clientes">
           <img class="logo" src="./assets/clientes/Logo-Kyoto v3p.png" alt="kyoto">
@@ -273,7 +272,7 @@
 
       <!--TODO8 - PARCEIROS-->
 
-      <div class="container" id="parceiros"> 
+      <div class="container" id="parceiros" data-aos="fade-in"> 
         <h1 id="nome-par">Parceiros</h1>
         
         <!-- Carrosel -->
@@ -352,12 +351,12 @@
 
 
     
-    <!--<script src="https://unpkg.com/aos@next/dist/aos.js"></script>-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      //AOS.init({
-          //offset: 300,
-          //duration: 1500
-      //});
+      AOS.init({
+          offset: 300,
+          duration: 1500
+      });
 
       function maquinaDeEscrever (elemento) {
         const texto = elemento.innerHTML.split('')
