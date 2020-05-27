@@ -1,11 +1,12 @@
 
-.html{
+html{
     margin: 0;
 }
 
 body {
   height: 4900px;
   font-style: 'Roboto', sans-serif;
+  right: 0;
 }
 
 
@@ -543,7 +544,10 @@ footer h6{
     top: 15%;
   }
 
-
+  .bannercontent h2 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+  }
   .navbar{
     opacity: 0.8;
     color: white;
